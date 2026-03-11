@@ -14,6 +14,8 @@
 	</head>
 	<body class="is-preload">
 
+		<div id="particles-js" style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; background-color: #000000;"></div>
+		
 		<!-- Wrapper-->
 			<div id="wrapper">
 
@@ -22,7 +24,8 @@
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>
+						
+						<a href="https://www.linkedin.com/in/brandon-kim-aa4022322/" class="icon brands fa-twitter"><span>Twitter</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -141,7 +144,27 @@
 
 	</body>
 
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+"particles": {
+"number": {"value": 80},
+"color": {"value": "#ffffff"},
+"shape": {"type": "circle"},
+"opacity": {"value": 0.5},
+"size": {"value": 3},
+"line_linked": {"enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1},
+"move": {"enable": true, "speed": 3}
+},
+"interactivity": {
+"events": {"onhover": {"enable": true, "mode": "repulse"}, "onclick": {"enable": true, "mode": "push"}}
+}
+});
+</script>
+
 </html>
+
 
 
 
